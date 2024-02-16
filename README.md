@@ -13,7 +13,7 @@ Este portfólio foi desenvolvido para destacar meus projetos, habilidades e expe
 - **Formas de Contato:** Incluí links para minhas redes sociais e um formulário de contato para facilitar a comunicação.
 - ## Demonstração
 
-Para ver uma demonstração ao vivo do meu portfólio, [clique aqui](link-do-seu-portfolio).
+Para ver uma demonstração ao vivo do meu portfólio, [clique aqui](https://ggvictor.github.io/Portifolio/).
 
 ![image](https://github.com/ggvictor/Portifolio/assets/107512940/b50151c7-d1c3-47f9-9b52-01bdaeff865a)
 
