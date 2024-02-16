@@ -20,4 +20,4 @@ Para ver uma demonstração ao vivo do meu portfólio, [clique aqui](link-do-seu
 
 ## Licença
 
-Este projeto é licenciado sob a Licença MIT - veja o arquivo [LICENSE.md](LICENSE.md) para mais detalhes.
+Este projeto é licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
