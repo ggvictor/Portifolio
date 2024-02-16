@@ -1,0 +1,121 @@
+@media screen and (min-width:1150px){
+    .nav-list li a{
+        font-size: 2.3rem;
+    }
+    div.myPhoto img{
+        height:351px;
+        margin:auto;
+        margin-left: 10px;
+    }
+    div.redes_sociais img{
+        height:90px;
+        margin-right:20px;
+        padding-top:10px;
+        padding-bottom:10px;
+        cursor:pointer;
+    }
+    div.sobre_mim{
+        width: 100%;
+        text-align: center;
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+        margin-left: 60px;
+    }
+    div.sobre_mim h1{
+        font-size:5.2rem !important;
+    }
+    div.sobre_mim span{
+        font-size:3.5rem;
+        padding-bottom:20px;
+        
+    }
+    div.sobre_mim_textos p{
+        font-size:2.5rem;
+        margin-left: 5px;
+        padding-bottom:10px;
+        width: 100%;
+    }
+    div.sobre_mim_textos i{
+        padding-top:10px;
+        
+    }
+    hr{
+        height:5px;
+        background-color:black;
+        border:none;
+        width:1000px;
+        margin:auto;
+        margin-top:40px;
+    }
+    section.tecnologias h1{
+        color:#30160E;
+        font-size:3.4rem;
+        text-align: center;
+        margin-bottom:15px;
+        margin-top:15px;
+    }
+    div.tecnologias_div{
+        background-color: #909090;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    div.tecnologias_column{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 5px;
+    }
+    div.tecnologias_column p {
+        font-size: 2..2rem;
+        font-weight: bold;
+        width: 300px;
+    }
+    section.projetos h1.principal{
+        color:#30160E;
+        font-size:3.4rem;
+        text-align: center;
+        margin-bottom:15px;
+        margin-top:15px;
+        text-decoration: none;
+    }
+    section.projetos h1{
+        text-align: center;
+        color:#30160E;
+        font-size:2.7rem;
+        text-decoration: underline;
+        margin-bottom: 10px;
+    }
+    div.projetos_column img{
+        height:346px;
+    }
+    div.projetos_div p{
+        font-size: 1.9rem;
+        width: 500px;
+        margin-left: 20px;
+    }
+    div.projetos_div button{
+        margin-top: 60px;
+        font-size: 2rem;
+        margin-top: 50px;
+    }
+     /* contato */
+     footer.contato h1{
+        text-align:center;
+        color:#30160E;
+        font-size:3.4rem;
+        margin-bottom:10px;
+    }
+    footer.contato p{
+        text-align:left;
+        font-size:2rem;
+        width:650px;
+        font-weight:bold;
+        margin-left:15px;
+    }
+}

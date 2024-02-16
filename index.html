@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifolio</title>
+    <link rel="shortcut icon" href="imagens/pc.png" type="image/x-icon">
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/tablet.css">
+    <link rel="stylesheet" href="estilos/smartphone.css">
+    <link rel="stylesheet" href="estilos/desktop.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div class="header_div">
+            <nav class="nav-navbar">
+                <div id=menu onclick="onClickMenu()">
+                    <div id="bar1"  class="bar"></div>
+                    <div id="bar2"  class="bar"></div>
+                    <div id="bar3"  class="bar"></div>
+                </div>
+                <ul class="nav-list" id="nav-list">
+                    <li class="nav-item"><a href="#h1_tec" class="nav-link">Tecnologias</a></li>
+                    <li class="nav-item"><a href="#h1_pro" class="nav-link">Projetos</a></li>
+                    <li class="nav-item"><a href="#h1_contato" class="nav-link">Contato</a></li>
+                    <li class="nav-item">
+                        <div class="dark_mode">
+                            <input type="checkbox" name="check" id="chk" class="checkbox">
+                            <label class="label" for="chk">
+                                <i class="fas fa-moon"></i>
+                                <i class="fas fa-sun"></i>
+                                <div class="ball"></div>
+                            </label>
+                    </li>
+                </ul>
+                <div class="menu-bg"id="menu-bg"></div>
+              
+            </nav>
+            
+            </div>
+
+        <div class="presentation">
+            <div class="myPhoto">
+                <img src="imagens/eu 1.png" alt="minha foto" class="eu">
+                <div class="redes_sociais">
+                    <a href="https://github.com/ggvictor" target="_blank" rel="noopener"><img src="imagens/github.png" alt="github"></a>
+                    <a href="https://www.instagram.com/victor_siilva07/"  target="_blank" rel="noopener"><img src="imagens/instagram.png" alt="instagram"></a>
+                    <a href="https://www.linkedin.com/in/victor-rodrigues07/" target="_blank" rel="noopener"><img src="imagens/linkedin.png" alt="linkedin"></a>
+                </div>
+            </div>
+            <div class="sobre_mim">
+                <h1 class="h1" id="h1">olá, meu nome e victor</h1> <br>
+                <span>desenvolvedor front-end 💻</span>
+                <div class="sobre_mim_textos">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                    <p>cursando analise e desenvolvimento de sistemas</p>
+                </div>
+                <div class="sobre_mim_textos">
+                    <i class="fa-solid fa-lightbulb"></i>
+                    <p>Interesse em desenvolvimento front-end</p>
+                </div>
+                <div class="sobre_mim_textos">
+                    <i class="fa-solid fa-rocket"></i>
+                    <p>buscando oportunidades na área</p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <hr>
+    <main>
+        <section class="tecnologias">
+            <h1 id="h1_tec">TECNOLOGIAS</h1>
+            <div class="tecnologias_div">
+                <div class="tecnologias_row">
+                    <div class="tecnologias_column">
+                        <abbr title="HTML"><img src="imagens/html-5.png" alt="html5"></abbr>
+                        <p>HTML é uma linguagem de marcação utilizada na construção de páginas na Web.</p>
+                    </div>
+                    <div class="tecnologias_column">
+                        <abbr title="CSS"><img src="imagens/css-3.png" alt="css3"></abbr>
+                        <p>Cascading Style Sheets é um mecanismo para adicionar estilos a uma página web</p>
+                    </div>
+                </div>
+                <div class="tecnologias_row">
+                    <div class="tecnologias_column">
+                        <abbr title="JAVASCRIPT"><img src="imagens/js.png" alt="javascript"></abbr>
+                        <p>JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma</p>
+                    </div>
+                    <div class="tecnologias_column">
+                        <abbr title="GIT"><img src="imagens/git.png" alt="imagem do git"></abbr>
+                        <p>Git  é um sistema de controle de versões distribuído, usado principalmente no desenvolvimento de software</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section class="projetos">
+            <h1 class="principal" id="h1_pro">PROJETOS</h1>
+            <div class="projetos_div">
+                <div class="projetos_column">
+                    <h1>HUNTER X HUNTER</h1>
+                    <img src="imagens/hunter.png" alt="foto do projetos de hunter">
+                </div>
+                <div class="projetos_column">
+                    <p>pagina web do anime hunter x hunter, foi ultilizado as tecnoligias de HTML | CSS | JAVASCRIPT. no final tem um jogo divertido  feito em JAVASCRIPT onde aparace 2 personagens e você aposta em qual ira ganhar.</p>
+                    <div class="projetos_row">
+                        <a href="https://ggvictor.github.io/hunterxhunter/" target="_blank" rel="noopener"><button>WEBSITE</button></a>
+                        <a href="https://github.com/ggvictor/hunterxhunter" target="_blank" rel="noopener"><button>REPOSITORIO</button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="projetos_div" id="outroLado">
+                <div class="projetos_column">
+                    <h1>Calculadora de IMC</h1>
+                    <img src="imagens/imc.png" alt="foto do projetos de IMC">
+                </div>
+                <div class="projetos_column">
+                    <p>Projeto de uma calculadora de IMC(indice de massa corporal) ,Você pode colocar sua altura e peso e ver qual e seu IMC, se esta abaixo , normal ou acima do seu peso ideal.  feito com as tecnologias HTML | CSS | JAVASCRIPT
+                    </p>
+                    <div class="projetos_row">
+                        <a href="https://ggvictor.github.io/IMC/" target="_blank" rel="noopener"><button>WEBSITE</button></a>
+                        <a href="https://github.com/ggvictor/IMC" target="_blank" rel="noopener"><button>REPOSITORIO</button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="projetos_div">
+                <div class="projetos_column">
+                    <h1>Lista De Tarefas</h1>
+                    <img src="imagens/lista.png" alt="foto do projetos de listas de tarefas">
+                </div>
+                <div class="projetos_column">
+                    <p>Projeto de uma lista de tarefas, onde Você coloca uma ou mais tafera que ira fazer e depois que concluir a tarefe pode marcar como concluido ou deletar a tarefa. feito com as tecnologias HTML | CSS | JAVASCRIPT
+                    </p>
+                    <div class="projetos_row">
+                        <a href="https://ggvictor.github.io/lista_tarefas/" target="_blank" rel="noopener"><button>WEBSITE</button></a>
+                        <a href="https://github.com/ggvictor/lista_tarefas" target="_blank" rel="noopener"><button>REPOSITORIO</button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="projetos_div"  id="outroLado">
+                <div class="projetos_column">
+                    <h1>Doctor Who</h1>
+                    <img src="imagens/doctor.png" alt="fotos do projetos da serie de doctor who">
+                </div>
+                <div class="projetos_column">
+                    <p>Pagina web 100% responsiva sobre a serie doctor who , esse projeto trabalha bem com position e flex box. feito com as tecnologias HTML | CSS | JAVASCRIPT
+                    </p>
+                    <div class="projetos_row">
+                        <a href="https://ggvictor.github.io/doctor_who/" target="_blank" rel="noopener"><button>WEBSITE</button></a>
+                        <a href="https://github.com/ggvictor/doctor_who" target="_blank" rel="noopener"><button>REPOSITORIO</button></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <footer class="contato">
+            <h1 id="h1_contato">CONTATO</h1>
+            <p>para entrar em contanto comigo pode mandar um email para victorrodriguessilva@gmail.com ou me procurar nessas redes sociais:</p>
+            <div class="contato_div">
+                <a href="https://github.com/ggvictor" target="_blank" rel="noopener"><img src="imagens/github.png" alt="github"></a>
+                <a href="https://www.instagram.com/victor_siilva07/"  target="_blank" rel="noopener"><img src="imagens/instagram.png" alt="instagram"></a>
+                <a  href="https://www.linkedin.com/in/victor-rodrigues07/" target="_blank" rel="noopener"><img src="imagens/linkedin.png" alt="linkedin"></a>
+            </div>
+        </footer>
+        <a class="back-to-top"></a>
+    </main>
+    <script src="scripts/main.js"></script>
+    <script src="https://kit.fontawesome.com/998c60ef77.js" crossorigin="anonymous"></script>
+</body>
+</html>

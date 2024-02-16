@@ -1,0 +1,172 @@
+@media screen and (min-width:690px){
+    #menu{
+        display: none;
+    }
+    .bar{
+        height:5px;
+        width:100%;
+        background-color:#30160E;
+        display:block;
+        border-radius:5px;
+        transition:0.3s;
+        display: none;
+    }
+    .nav-list{
+        padding:0;
+        margin:0 20px;
+        transition:0.3s ease;
+        display:flex;
+        justify-content: flex-end;
+    }
+    .nav-list li{
+        margin-right: 17px;
+        margin-bottom: 30px;
+    }
+    .menu-bg,#menu-bar{
+        top:0;
+        left:0;
+        position:absolute;
+        display: none;
+    }
+    div.presentation{
+        display: flex;
+    }
+    div.myPhoto img{
+        height:300px;
+        margin:auto;
+        margin-left: 10px;
+    }
+    div.redes_sociais img{
+        height:90px;
+        margin-right:20px;
+        padding-top:10px;
+        padding-bottom:10px;
+        cursor:pointer;
+    }
+    div.sobre_mim{
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+        width: 100%;
+    }
+    div.sobre_mim h1{
+        font-size:3.2rem;
+    }
+    div.sobre_mim span{
+        font-size:2.5rem;
+        padding-bottom:20px;
+    }
+    div.sobre_mim_textos p{
+        font-size:2rem;
+        margin-left: 5px;
+        padding-bottom:10px;
+        width:350px;
+    }
+    div.sobre_mim_textos i{
+        padding-top:8px;
+    }
+    hr{
+        height:5px;
+        background-color:black;
+        border:none;
+        width:600px;
+        margin:auto;
+        margin-top:40px;
+    }
+     /* tecnologias */
+     section.tecnologias h1{
+        color:#30160E;
+        font-size:2.7rem;
+        text-align: center;
+        margin-bottom:15px;
+        margin-top:15px;
+    }
+    div.tecnologias_div img{
+        height: 110px;
+        cursor: pointer;
+        margin-bottom: 20px;
+    }
+    div.tecnologias_div{
+        background-color: #909090;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    div.tecnologias_column{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-right: 30px;
+    }
+    div.tecnologias_column p {
+        font-weight: bold;
+        font-size: 1.5rem;
+        width: 150px;
+    }
+    /* projetos */
+    section.projetos h1.principal{
+        color:#30160E;
+        font-size:2.7rem;
+        text-align: center;
+        margin-bottom:15px;
+        margin-top:15px;
+        text-decoration: none;
+    }
+    section.projetos h1{
+        text-align: center;
+        color:#30160E;
+        font-size:2.3rem;
+        text-decoration: underline;
+        margin-bottom: 10px;
+    }
+    div.projetos_div{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+    div.projetos_div p{
+        margin-left: 20px;
+    }
+    div.projetos_div button{
+        margin-top: 50px;
+    }
+    div#outroLado{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+    div#outroLado p{
+        margin-right: 20px;
+        margin-left: 0;
+    }
+    div.projetos_column img{
+        height:215px;
+    }
+     /* contato */
+     footer.contato h1{
+        text-align:center;
+        color:#30160E;
+        font-size:2.7rem;
+        margin-bottom:10px;
+    }
+    footer.contato p{
+        text-align:left;
+        font-size:1.8rem;
+        width:600px;
+        font-weight:bold;
+        margin-left:15px;
+    }
+    section.contato div.contato_div{
+        display:flex;
+        justify-content:flex-start;
+        margin-top:15px;
+        margin-left:30px;
+    }
+}
